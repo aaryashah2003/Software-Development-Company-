@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Requirements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Project Requirements</h1>
+    </header>
+    <form id="requirements-form">
+        <!-- Client and Project Information -->
+        <!-- ... (previous HTML code) ... -->
+
+<!-- Client and Project Information -->
+<section>
+    <h2>Client Information</h2>
+    <div class="input-container">
+        <label for="client-name">Client Name:</label>
+        <input type="text" id="client-name" name="client-name" required>
+    </div>
+    <div class="input-container">
+        <label for="project-name">Project Name:</label>
+        <input type="text" id="project-name" name="project-name" required>
+    </div>
+    
+    <!-- Starting Date -->
+    <div class="input-container">
+        <label for="start-date">Starting Date:</label>
+        <input type="date" id="start-date" name="start-date" required>
+    </div>
+
+    <!-- Ending Date -->
+    <div class="input-container">
+        <label for="end-date">Ending Date:</label>
+        <input type="date" id="end-date" name="end-date" required>
+    </div>
+</section>
+<!-- Inside your HTML form -->
+<table id="date-range-table">
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Month</th>
+            <th>Date</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Table rows will be generated here -->
+    </tbody>
+</table>
+
+
+        <!-- Functional Requirements -->
+        <section>
+            <h2>Functional Requirements</h2>
+            <!-- User Management -->
+            <!-- <h3>User Management</h3> -->
+            <!-- User Registration -->
+            <div class="input-container">
+                <label for="user-registration">User Registration:</label>
+                <textarea id="user-registration" name="user-registration"></textarea>
+            </div>
+            <!-- User Login -->
+            <div class="input-container">
+                <label for="user-login">User Login:</label>
+                <textarea id="user-login" name="user-login"></textarea>
+            </div>
+            <!-- User Roles and Permissions -->
+            <div class="input-container">
+                <label for="user-roles">User Roles and Permissions:</label>
+                <textarea id="user-roles" name="user-roles"></textarea>
+            </div>
+            
+            <!-- Continue adding sections and requirements as needed -->
+        </section>
+
+        <!-- Non-Functional Requirements, Technology Stack, Timeline, Budget, Additional Notes -->
+        <!-- These sections can be structured similarly to the Functional Requirements section -->
+
+        <button type="submit">Submit Requirements</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
